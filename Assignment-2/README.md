@@ -74,22 +74,36 @@ To deploy the Microservice-Based Application on Kubernetes:
 
 ## Architecture Diagram
 
+### Monolith Architecture Diagram
+
 ![Monolith Architecture Diagram](https://drive.google.com/uc?export=view&id=1XHZG9LWb8UoTxd-K8hpi3VUtEg2QGYaI)
+
+### Microservice Based Architecture Diagram
 
 ![Microservice Based Architecture Diagram](https://drive.google.com/uc?export=view&id=1EDqlEKxz28KeOe5z9NAaKlVM3vYNAcfZ)
 
 ## Screenshots
 
+### Monolith Cluster State
 ![Monolith Kubernetes Cluster State](https://drive.google.com/uc?export=view&id=1eOZFX36AxJUecpjFWdSWsGrwXPGQMTrp)
+
+### Monolith Application in Action
 ![Monolith Application in Action](https://drive.google.com/uc?export=view&id=1CRHKfHmYa7bq_yAmw8OjtslKtp-WFcLw)
 ![Monolith Application in Action](https://drive.google.com/uc?export=view&id=1KhUoEawWNftGAUkk76b0401c0BIMi3s-)
+
+### Monolith Test Script
 ![Monolith Test Script](https://drive.google.com/uc?export=view&id=1O1Y69-j-X5G8RE3_6pH8wSe6-N672XRl)
 
 
+### Microservices Kubernetes Cluster State
 ![Microservices Kubernetes Cluster State](https://drive.google.com/uc?export=view&id=1rR0GBh2gQF6ypXg8Rry3BC7nd6QgETAn)
 ![Microservices Kubernetes Cluster State](https://drive.google.com/uc?export=view&id=1lOCtotHOq1lJeP6HV0PWGItt-UVkNEPI)
+
+### Microservices Application in Action
 ![Microservices Application in Action](https://drive.google.com/uc?export=view&id=1rS_2TEqjkfNLbcuVytBvmSOCSITW5UOs)
 ![Microservices Application in Action](https://drive.google.com/uc?export=view&id=1lOCtotHOq1lJeP6HV0PWGItt-UVkNEPI)
+
+### Microservices Test Job
 ![Microservices Test Job](https://drive.google.com/uc?export=view&id=1cSkj-1wRCsx2lqpSvP0Raioa-YK157eS)
 ![Microservices Test Job](https://drive.google.com/uc?export=view&id=1nMIln_NsWHVrfUPg4paQYPE1MweNGl7V)
 
