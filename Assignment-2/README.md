@@ -41,7 +41,7 @@ The key components of the Microservice-Based Application include:
 
 - **Web Application (web-app)**: A Flask application managing rate limiting.
 - **Redis (redis)**: A dedicated Redis server for data storage and retrieval.
-- **Testing (test)**: A testing microservice to ensure rate limiting functionality.
+- **Testing (test)**: A test job to ensure rate limiting functionality.
 
 ### Microservices
 
@@ -83,6 +83,9 @@ To deploy the Microservice-Based Application on Kubernetes:
 ![Microservice Based Architecture Diagram](https://drive.google.com/uc?export=view&id=1EDqlEKxz28KeOe5z9NAaKlVM3vYNAcfZ)
 
 ## Screenshots
+
+### Application
+![Application](https://drive.google.com/uc?export=view&id=1OEJtq-njUHmXwTiRIIAdvRi48b2ZDGzQ)
 
 ### Monolith Cluster State
 ![Monolith Kubernetes Cluster State](https://drive.google.com/uc?export=view&id=1eOZFX36AxJUecpjFWdSWsGrwXPGQMTrp)
