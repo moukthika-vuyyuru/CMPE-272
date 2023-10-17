@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CHAT ROOM</title>
+    <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script src="/script.js"></script>
+</head>
+<body class="bg-dark">
+<div id="name-from" class="bg-primary d-flex align-items-center">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <div class="input-group">
+                    <input type="text"
+                           placeholder="Enter Your Name:"
+                           id="name-value"
+                           autofocus
+                           class="form-control"
+                    >
+                    <div class="input-group-append">
+                        <button class="btn btn-dark" id="login">
+                            Enter
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div id="chat-room" class="d-none">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="message-container">
+                            <!-- Messages will be displayed here -->
+                        </div>
+                        <div class="input-group">
+                            <input type="text" placeholder="Enter Your Message:" id="message-value" autofocus class="form-control">
+                            <div class="input-group-append">
+                                <button class="btn btn-dark" id="send-btn">Send</button>
+                                <button class="btn btn-dark" id="logout">Logout</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

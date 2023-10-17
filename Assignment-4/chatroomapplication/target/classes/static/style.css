@@ -1,0 +1,29 @@
+#name-from
+{
+height:100vh;
+}
+.message-bubble {
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.right {
+    float: right;
+    background-color: #007bff;
+    color: #fff;
+    clear: right;
+}
+
+.left {
+    float: left;
+    background-color: #eee;
+}
+
+/* Add a left-align class for left-aligned messages */
+.left-align {
+    clear: left;
+}
+
+
